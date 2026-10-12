@@ -2,16 +2,17 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Isah Aruna — WordPress Developer | Elementor & Avada Builder | Front-End Developer",
+  title: "Isah Aruna — Website Manager | WordPress & WooCommerce Specialist",
   description:
     "5+ years building WordPress sites with Elementor, Bricks Builder, and Divi. Figma-to-pixel-perfect responsive pages, landing pages optimized for conversions, SEO & Core Web Vitals.",
   keywords: [
-    "WordPress Developer",
+    "Website Manager",
+    "WordPress",
+    "WooCommerce Specialist",
     "Elementor",
     "Avada Builder",
     "Bricks Builder",
     "Divi",
-    "Front-End Developer",
     "React.js",
     "SEO",
     "Core Web Vitals",
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Isah Aruna" }],
   openGraph: {
-    title: "Isah Aruna — WordPress Developer",
+    title: "Isah Aruna — Website Manager | WordPress & WooCommerce Specialist",
     description: "5+ years building WordPress sites with Elementor, Bricks Builder, and Divi.",
     type: "website",
     locale: "en_US",

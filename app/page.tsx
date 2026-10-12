@@ -73,69 +73,69 @@ const CLIENTS = [
 
 const SKILLS = [
   {
-    category: "WordPress Page Builders",
-    items: ["Elementor", "Bricks Builder", "Divi"],
+    category: "Store Management",
+    items: ["WooCommerce", "Product Uploads", "Inventory", "Order Processing", "Payment Gateways"],
   },
   {
-    category: "Landing Pages & Conversion Design",
-    items: ["Figma-to-WordPress", "A/B Testing", "CRO", "Lead Gen"],
+    category: "Maintenance & Support",
+    items: ["Bug Fixes", "Plugin & Theme Updates", "Backups", "Troubleshooting"],
   },
   {
-    category: "SEO & Performance",
-    items: ["On-Page SEO", "Core Web Vitals", "Local SEO", "Google Business Profile"],
+    category: "Speed & Performance",
+    items: ["Core Web Vitals", "Caching", "Image Optimization", "Cloudflare CDN"],
+  },
+  {
+    category: "Design Updates",
+    items: ["Elementor", "Bricks Builder", "Divi", "Banners & Layouts", "Figma-to-WordPress"],
   },
   {
     category: "Integrations",
-    items: ["REST APIs", "Webhooks", "CRM / Marketing Tool Integrations", "Google Analytics"],
-  },
-  {
-    category: "Front-End",
-    items: ["HTML", "CSS", "JavaScript", "React.js"],
+    items: ["REST APIs", "Webhooks", "CRM / Marketing Tools", "Google Analytics"],
   },
   {
     category: "Hosting & Security",
-    items: ["VPS", "DNS / MX", "SSL / TLS", "Cloudflare"],
+    items: ["VPS", "DNS / MX", "SSL / TLS", "Cloudflare", "Firebase (Auth, Firestore, Hosting) · GitHub CI/CD"],
   },
   {
-    category: "Collaboration",
-    items: ["Slack", "Notion", "Gmail Workspace", "Discord"],
+    category: "Team & Launches",
+    items: ["Slack", "Notion", "Gmail Workspace", "Discord", "Launch Coordination"],
   },
 ];
 
 const SERVICES = [
   {
-    title: "Custom WordPress Website Design",
-    desc: "Figma-to-WordPress builds using Elementor, Bricks, and Divi — pixel-perfect, fully responsive across all devices.",
+    title: "Store & Product Management",
+    desc: "Adding products, managing inventory, checking orders, and keeping shipping rules and payment gateways working so your store keeps selling.",
   },
   {
-    title: "Landing Pages That Convert",
-    desc: "High-converting landing pages built for lead generation, product launches, and paid traffic campaigns.",
+    title: "Maintenance & Support",
+    desc: "Plugin and theme updates, backups, bug fixes, and minor issues handled quickly, before customers notice them.",
   },
   {
-    title: "WooCommerce Store Builds",
-    desc: "Product setup, shipping rules, payment gateways, order flow — everything you need to start selling online.",
+    title: "Design & Content Updates",
+    desc: "Banners, layouts, and product pages refreshed in Elementor, Bricks, or Divi, matched to your designs and fully responsive.",
   },
   {
     title: "Site Speed & Core Web Vitals",
-    desc: "Performance audits, caching, image optimization, and SEO fundamentals to rank higher and load faster.",
+    desc: "Performance audits, caching, image optimization, and Cloudflare CDN for faster pages and a smoother checkout.",
   },
   {
-    title: "Hosting, Security & Maintenance",
-    desc: "VPS setup, DNS/MX configuration, SSL/TLS, Cloudflare CDN, and ongoing site care packages.",
+    title: "Launch Coordination",
+    desc: "Working with your team to get new collections, promos, and campaigns live on schedule, with QA before go-live.",
   },
   {
-    title: "API & Third-Party Integrations",
-    desc: "CRMs, payment gateways, analytics, marketing automation — seamlessly connected via REST APIs & webhooks.",
+    title: "Integrations, Hosting & Security",
+    desc: "CRMs, payment gateways, analytics, DNS, SSL, and hosting managed so everything stays connected and secure.",
   },
 ];
 
 const FEATURED_PROJECT = {
   name: "DSTRCT Group",
-  tagline: "Enterprise WordPress Web Presence — Netherlands",
+  tagline: "Enterprise WooCommerce Store: Launch, Speed & Site Management (Netherlands)",
   challenge:
-    "International client needed a fast, on-brand WordPress site launched from a Figma handoff with no existing dev infrastructure. Tight deadline and high design fidelity requirements.",
+    "An international client needed a fast, on-brand online store live on a tight deadline, with no existing dev infrastructure. The site had to match the approved designs, work on every device, and be ready to run day to day once it launched.",
   solution:
-    "Custom WordPress theme build, CRM + REST API integration, WooCommerce setup, full hosting/DNS/SSL configuration. Delivered pixel-perfect Figma-to-WordPress translation.",
+    "Set up WooCommerce with products, shipping rules, payment gateways, and order flow. Integrated the CRM through REST APIs and configured hosting, DNS, and SSL. Optimized speed and Core Web Vitals, and matched the Figma designs closely, so the team could manage the store with confidence after launch.",
   stats: [
     { value: "40%", label: "Page Load Time Cut" },
     { value: "100%", label: "Mobile Responsiveness" },
@@ -145,12 +145,15 @@ const FEATURED_PROJECT = {
 };
 
 const PROJECTS = [
-  { name: "mytwitwi.com", desc: "Marketplace ecosystem", url: "https://mytwitwi.com", image: "/mytwitwi.png", tags: ["Marketplace","Security","AI"] },
-  { name: "dstrctgroup.com", desc: "Enterprise WordPress web presence", url: "https://dstrctgroup.com", image: "/dstrsct.png", tags: ["WordPress","Agency"] },
-  { name: "wearecluebox.com", desc: "High-speed React/WordPress theme platform", url: "https://wearecluebox.com", image: "/cluebox.png", tags: ["WordPress","React.js","Hosting"] },
-  { name: "turtleandbloom.com", desc: "Global WooCommerce store", url: "https://turtleandbloom.com", image: "/turtleandbloom.png", tags: ["WooCommerce","Ecommerce"] },
-  { name: "thegrantonhotel.com", desc: "Full-stack WordPress booking site", url: "https://thegrantonhotel.com", image: "/thegranton hoel.png", tags: ["Booking","WordPress"] },
-  { name: "cissigroup.com", desc: "Consulting/finance corporate site (Elementor)", url: "https://cissigroup.com", image: "/cissi.png", tags: ["Elementor","Corporate"] },
+  { name: "turtleandbloom.com", desc: "Global WooCommerce store: products, payments, orders, speed", url: "https://turtleandbloom.com", image: "/turtleandbloom.png", tags: ["WooCommerce","E-commerce","Store Management"] },
+  { name: "mytwitwi.com", desc: "Live UK marketplace platform with automated workflows", url: "https://mytwitwi.com", image: "/mytwitwi.png", tags: ["Marketplace","Automation","Maintenance"] },
+  { name: "thegrantonhotel.com", desc: "Full-stack WordPress booking site", url: "https://thegrantonhotel.com", image: "/thegranton hoel.png", tags: ["Booking","WordPress","Maintenance"] },
+  { name: "wearecluebox.com", desc: "High-speed React/WordPress platform", url: "https://wearecluebox.com", image: "/cluebox.png", tags: ["WordPress","React.js","Hosting"] },
+  { name: "dstrctgroup.com", desc: "Enterprise WordPress site (case study above)", url: "https://dstrctgroup.com", image: "/dstrsct.png", tags: ["WordPress","Speed","Core Web Vitals"] },
+  { name: "cissigroup.com", desc: "Corporate site built in Elementor", url: "https://cissigroup.com", image: "/cissi.png", tags: ["Elementor","Design Updates"] },
+];
+
+const MORE_PROJECTS = [
   { name: "bradama.com", desc: "Engineering/industrial services site (WordPress)", url: "https://bradama.com", image: "/bradama.png", tags: ["WordPress","Engineering"] },
   { name: "rampart.ng", desc: "Civil engineering & construction site (Elementor)", url: "https://rampart.ng", image: "/ramparts.png", tags: ["Elementor","Construction"] },
   { name: "parametric-gules.vercel.app", desc: "Strategic advisory/consulting firm site", url: "https://parametric-gules.vercel.app/", image: "/parametrics.png", tags: ["Consulting"] },
@@ -158,48 +161,41 @@ const PROJECTS = [
   { name: "tilecraft.ng", desc: "Tile and stone installation company website", url: "https://tilecraft.ng/", image: "/tilecrafe.png", tags: ["Construction","WordPress"] },
 ];
 
-const LOCAL_SEO_PROJECTS = [
-  { name: "sulummaglobalmedical.com", url: "https://sulummaglobalmedical.com" },
-  { name: "tilecraft.ng", desc: "Tile and stone installation company website", url: "https://tilecraft.ng/", image: "/tilecraft.png", tags: ["Construction","WordPress"] },
-  { name: "jemsbeautysalon.ng", url: "https://jemsbeautysalon.ng" },
-  { name: "wearecluebox.com", url: "https://wearecluebox.com" },
-  { name: "elijaahie.wearecluebox.com", url: "https://elijaahie.wearecluebox.com" },
-];
-
 const EXPERIENCE = [
   {
-    title: "Web Developer, WordPress Developer & IT Support",
-    company: "Cluebox Nigeria",
-    location: "Nigeria",
-    period: "2024 – Present",
-    current: true,
+    title: "Web Developer / WordPress Developer & IT Support",
+    company: "Cluebox",
+    location: "Abuja, Nigeria",
+    period: "Mar 2024 – Sep 2026 · Hybrid",
+    current: false,
   },
   {
-    title: "Web Developer & WordPress Developer",
+    title: "Web Platform Developer",
     company: "DSTRCT Group",
     location: "Netherlands · Remote",
-    period: "2024 – 2025",
+    period: "06/2024 – 08/2025",
     current: false,
   },
   {
-    title: "Technical Project Manager & Security Engineer",
+    title: "Technical Project Manager, Security & DevOps Engineer",
     company: "Twitwi Ltd",
     location: "UK · Remote",
-    period: "2025 – Present",
+    period: "08/2026 – Present",
+    description: "Deploying the app through GitHub CI/CD, managing developer access, and administering Firebase (Auth, Firestore, Hosting).",
     current: true,
   },
   {
-    title: "Cloud & DevOps Engineer",
-    company: "IPI Solutions",
-    location: "Nigeria",
-    period: "2023 – 2025",
+    title: "Web Developer & DevOps Engineer",
+    company: "IPI Group",
+    location: "Abuja, Nigeria",
+    period: "Apr 2023 – Sep 2025 · Onsite",
     current: false,
   },
   {
-    title: "Web Developer & IT Support Intern",
+    title: "Junior Web Developer & IT Support",
     company: "Craftechnologies Limited",
-    location: "Nigeria",
-    period: "2022 – 2023",
+    location: "Nigeria · Remote (4 days/week)",
+    period: "Mar 2022 – Mar 2023",
     current: false,
   },
 ];
@@ -207,34 +203,33 @@ const EXPERIENCE = [
 const WORKFLOW = [
   {
     step: "01",
-    title: "Discovery & Design Review",
-    desc: "Review Figma files, brand requirements, and project scope. Align on goals, target audience, and technical requirements before writing a single line of code.",
+    title: "Review & Prioritize",
+    desc: "Check what’s live and what’s pending: new products, orders, open issues, and upcoming launches.",
   },
   {
     step: "02",
-    title: "Build & Customize",
-    desc: "Elementor/Bricks/Divi build or custom theme development. Pixel-perfect translation from design to functional website with clean, maintainable code.",
+    title: "Update & Manage",
+    desc: "Add products, update inventory, handle orders, and make design and content changes in Elementor, Bricks, or Divi.",
   },
   {
     step: "03",
-    title: "Responsive QA",
-    desc: "Cross-device and cross-browser testing. Ensuring flawless experience on mobile, tablet, and desktop — tested down to 375px width.",
+    title: "Test & QA",
+    desc: "Cross-device and cross-browser checks, checkout testing, tested down to 375px.",
   },
   {
     step: "04",
-    title: "Performance & SEO Pass",
-    desc: "Core Web Vitals optimization, speed tuning, image compression, caching setup, and on-page SEO fundamentals for maximum visibility.",
+    title: "Speed & Security",
+    desc: "Core Web Vitals, caching, image compression, backups, and plugin and theme updates.",
   },
   {
     step: "05",
-    title: "Launch & Support",
-    desc: "Hosting setup, DNS configuration, SSL/TLS deployment, and post-launch maintenance. Ongoing support to keep your site secure and up-to-date.",
+    title: "Launch & Report",
+    desc: "Coordinate launches with your team, monitor after go-live, and keep everyone updated.",
   },
 ];
 
 const CERTS = [
   "Google Cloud Cybersecurity",
-  "Google Cybersecurity Professional",
   "IBM DevOps Engineering",
   "Ethical Hacking Essentials",
   "Agentic AI & Prompt Engineering",
@@ -284,9 +279,9 @@ function AnimatedCounter({ target, suffix = "" }: { target: string; suffix?: str
 
 function SectionHeading({ eyebrow, title }: { eyebrow: string; title: string }) {
   return (
-    <div className="mb-12 md:mb-16">
+    <div className="mb-8 sm:mb-12 md:mb-16">
       <span className="text-emerald-400 text-sm font-semibold tracking-widest uppercase">{eyebrow}</span>
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-3 leading-tight">
+      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mt-3 leading-tight">
         {title.split("  ").map((part, i) => (
           <React.Fragment key={i}>
             {i > 0 && <br />}
@@ -302,6 +297,7 @@ function SectionHeading({ eyebrow, title }: { eyebrow: string; title: string }) 
 export default function HomePage() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -309,10 +305,68 @@ export default function HomePage() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    const sections = NAV_LINKS
+      .map((link) => document.querySelector(link.href))
+      .filter((section): section is Element => section !== null);
+    if (!("IntersectionObserver" in window)) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visibleSection = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+        if (visibleSection?.target.id) setActiveSection(visibleSection.target.id);
+      },
+      { rootMargin: "-20% 0px -65% 0px", threshold: [0, 0.1, 0.5] }
+    );
+    sections.forEach((section) => observer.observe(section));
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setMenuOpen(false);
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, []);
+
+  useEffect(() => {
+    const sections = document.querySelectorAll<HTMLElement>("[data-motion]");
+    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (prefersReducedMotion) {
+      sections.forEach((section) => section.classList.add("motion-visible"));
+      return;
+    }
+    if (!("IntersectionObserver" in window)) {
+      sections.forEach((section) => section.classList.add("motion-visible"));
+      return;
+    }
+
+    document.documentElement.classList.add("motion-ready");
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("motion-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.08, rootMargin: "0px 0px -48px 0px" }
+    );
+    sections.forEach((section) => observer.observe(section));
+    return () => {
+      observer.disconnect();
+      document.documentElement.classList.remove("motion-ready");
+    };
+  }, []);
+
   return (
     <>
       <Head>
-        <title>Isah Aruna — WordPress Developer | Elementor, Bricks Builder & Divi | Front-End Developer</title>
+        <title>Isah Aruna — Wordpress Developer | Website Manager | Front-end Developer</title>
         <meta name="description" content="5+ years building WordPress sites with Elementor, Bricks Builder, and Divi. Figma-to-pixel-perfect responsive pages, landing pages optimized for conversions, SEO & Core Web Vitals." />
       </Head>
 
@@ -322,24 +376,27 @@ export default function HomePage() {
           scrolled ? "bg-black/80 backdrop-blur-md border-b border-white/5" : "bg-transparent"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <a href="#" className="text-white font-bold text-lg tracking-tight">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+          <a href="#" className="text-white font-bold text-lg tracking-tight rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-emerald-400">
             Isah Aruna
           </a>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav aria-label="Main navigation" className="hidden md:flex items-center gap-5 lg:gap-8">
             {NAV_LINKS.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm text-gray-400 hover:text-emerald-400 transition-colors"
+                aria-current={activeSection === link.href.slice(1) ? "location" : undefined}
+                className={`text-sm transition-colors rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-emerald-400 ${
+                  activeSection === link.href.slice(1) ? "text-emerald-400" : "text-gray-400 hover:text-emerald-400"
+                }`}
               >
                 {link.label}
               </a>
             ))}
             <a
-              href="#contact"
+              href="mailto:arunaisah47@gmail.com"
               className="text-sm bg-emerald-500 hover:bg-emerald-400 text-black font-semibold px-4 py-2 rounded-full transition-colors"
             >
               Hire Me
@@ -348,9 +405,11 @@ export default function HomePage() {
 
           {/* Mobile Toggle */}
           <button
-            className="md:hidden text-white"
+            className="md:hidden text-white w-11 h-11 inline-flex items-center justify-center rounded-xl border border-white/10 hover:border-emerald-500/40 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-emerald-400"
             onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Toggle menu"
+            aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
+            aria-expanded={menuOpen}
+            aria-controls="mobile-navigation"
           >
             {menuOpen ? Icons.close : Icons.menu}
           </button>
@@ -358,67 +417,70 @@ export default function HomePage() {
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className="md:hidden bg-black/95 backdrop-blur-xl border-t border-white/5 px-6 pb-6 pt-4">
+          <nav id="mobile-navigation" aria-label="Mobile navigation" className="md:hidden bg-[#0a0a0a]/95 backdrop-blur-xl border-t border-white/5 px-4 sm:px-6 pb-6 pt-3 max-h-[calc(100svh-4rem)] overflow-y-auto">
             {NAV_LINKS.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
-                className="block py-3 text-gray-300 hover:text-emerald-400 border-b border-white/5"
+                aria-current={activeSection === link.href.slice(1) ? "location" : undefined}
+                className={`block min-h-12 py-3 border-b border-white/5 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-emerald-400 ${
+                  activeSection === link.href.slice(1) ? "text-emerald-400" : "text-gray-300 hover:text-emerald-400"
+                }`}
               >
                 {link.label}
               </a>
             ))}
             <a
-              href="#contact"
+              href="mailto:arunaisah47@gmail.com"
               onClick={() => setMenuOpen(false)}
               className="block mt-4 text-center bg-emerald-500 text-black font-semibold px-4 py-3 rounded-full"
             >
               Hire Me
             </a>
-          </div>
+          </nav>
         )}
       </header>
 
       <main className="bg-[#0a0a0a] text-gray-300">
         {/* ====== HERO ====== */}
-        <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+        <section data-motion="hero" className="relative min-h-[100svh] flex items-center pt-20 pb-12 overflow-hidden">
           {/* subtle gradient orb */}
-          <div className="absolute top-1/4 -left-32 w-[500px] h-[500px] bg-emerald-500/10 rounded-full blur-[120px] pointer-events-none" />
-          <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-teal-500/5 rounded-full blur-[100px] pointer-events-none" />
+          <div className="absolute top-1/4 -left-40 sm:-left-32 w-[360px] sm:w-[500px] h-[360px] sm:h-[500px] bg-emerald-500/10 rounded-full blur-[100px] sm:blur-[120px] pointer-events-none" />
+          <div className="absolute bottom-0 -right-24 sm:right-0 w-[300px] sm:w-[400px] h-[300px] sm:h-[400px] bg-teal-500/5 rounded-full blur-[90px] sm:blur-[100px] pointer-events-none" />
 
-          <div className="max-w-7xl mx-auto px-6 relative z-10">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10 w-full">
             <div className="max-w-4xl">
-              <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full px-4 py-1.5 text-emerald-400 text-sm font-medium mb-8">
+            <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full px-3 sm:px-4 py-1.5 text-emerald-400 text-xs sm:text-sm font-medium mb-6 sm:mb-8">
                 <span className="relative flex h-2 w-2">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
                 </span>
-                Available for new projects
+                Available for Website Manager roles
               </div>
 
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] tracking-tight">
-                WordPress Developer{" "}
-                <span className="text-emerald-400">|</span> Elementor, Bricks Builder &amp; Divi{" "}
-                <span className="text-emerald-400">|</span> Front-End Developer
+              <h1 className="text-[2.55rem] leading-[1.04] sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight">
+                Website Manager{" "}
+                <span className="text-emerald-400">|</span>{" "}
+                <span className="text-emerald-400">WordPress &amp; WooCommerce</span> Specialist
               </h1>
 
-              <p className="mt-8 text-lg md:text-xl text-gray-400 max-w-2xl leading-relaxed">
-                5+ years building fast, responsive WordPress websites — from Figma to production — for clients across Nigeria, the UK, and Europe. Specialized in Elementor, Bricks Builder, Divi, WooCommerce, and React.js.
+              <p className="mt-6 sm:mt-8 text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl leading-relaxed">
+                I keep online stores running smoothly: adding products, managing inventory, fixing speed issues, updating designs, and making sure orders go through. 5+ years supporting brands across Nigeria, the UK, and Europe.
               </p>
 
-              <div className="mt-10 flex flex-wrap gap-4">
+              <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
                 <a
                   href="#projects"
-                  className="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold px-6 py-3 rounded-full transition-all"
+                  className="w-full sm:w-auto min-h-12 inline-flex justify-center items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold px-6 py-3 rounded-full transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-400"
                 >
                   View My Work {Icons.arrowRight}
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1jxnndbJ3L6uwsCtw1agVX8hn5wzlYxZe/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1lHMsRvMwVXcqWJ2e-CpxiGxNbO3J-jd_/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border border-white/10 hover:border-white/30 text-white font-medium px-6 py-3 rounded-full transition-all"
+                  className="w-full sm:w-auto min-h-12 inline-flex justify-center items-center gap-2 border border-white/10 hover:border-white/30 text-white font-medium px-6 py-3 rounded-full transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-400"
                 >
                   Download CV
                 </a>
@@ -426,7 +488,7 @@ export default function HomePage() {
                   href="https://wa.me/2348137337937"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border border-white/10 hover:border-emerald-500/50 text-emerald-400 font-medium px-6 py-3 rounded-full transition-all"
+                  className="w-full sm:w-auto min-h-12 inline-flex justify-center items-center gap-2 border border-white/10 hover:border-emerald-500/50 text-emerald-400 font-medium px-6 py-3 rounded-full transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-400"
                 >
                   WhatsApp Me
                 </a>
@@ -434,7 +496,7 @@ export default function HomePage() {
             </div>
 
             {/* Stats */}
-            <div className="mt-20 grid grid-cols-2 md:grid-cols-3 gap-8 border-t border-white/5 pt-12">
+            <div className="mt-12 sm:mt-16 md:mt-20 grid grid-cols-2 sm:grid-cols-3 gap-5 sm:gap-8 border-t border-white/5 pt-8 sm:pt-12">
               {STATS.map((s) => (
                 <div key={s.label}>
                   <div className="text-3xl md:text-4xl font-bold text-white">
@@ -448,24 +510,24 @@ export default function HomePage() {
         </section>
 
         {/* ====== PIPELINE ====== */}
-        <section className="py-20 border-t border-white/5">
-          <div className="max-w-7xl mx-auto px-6">
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-10">
-              <SectionHeading eyebrow="Process" title="Website Build Pipeline" />
+        <section data-motion="slide-left" className="py-16 sm:py-20 border-t border-white/5">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 sm:gap-6 mb-8 sm:mb-10">
+              <SectionHeading eyebrow="Process" title="Website Management Workflow" />
               <span className="text-emerald-400 text-sm font-mono animate-pulse">Processing...</span>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 sm:gap-4">
               {[
-                { label: "Figma Design Received", status: "done" },
-                { label: "Elementor/Bricks Build", status: "active" },
-                { label: "Responsive QA", status: "pending" },
-                { label: "Core Web Vitals Optimized", status: "pending" },
-                { label: "Site Deployed", status: "pending" },
+                { label: "Products Added & Inventory Synced", status: "done" },
+                { label: "Product & Design Updates", status: "active" },
+                { label: "Orders Checked & Fulfilled", status: "done" },
+                { label: "Speed & Maintenance Updates", status: "pending" },
+                { label: "Launch Coordinated with Team", status: "pending" },
               ].map((stage, i) => (
                 <div
                   key={i}
-                  className={`relative rounded-xl border p-5 ${
+                  className={`relative rounded-xl border p-4 sm:p-5 min-h-28 transition-transform duration-300 hover:-translate-y-1 ${
                     stage.status === "done"
                       ? "border-emerald-500/30 bg-emerald-500/5"
                       : stage.status === "active"
@@ -511,16 +573,16 @@ export default function HomePage() {
         </section>
 
         {/* ====== CLIENTS MARQUEE ====== */}
-        <section className="py-12 border-t border-white/5 overflow-hidden">
-          <div className="max-w-7xl mx-auto px-6 mb-6">
+        <section data-motion="ticker" className="py-10 sm:py-12 border-t border-white/5 overflow-hidden">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 mb-5 sm:mb-6">
             <span className="text-sm text-gray-500 uppercase tracking-widest">Trusted By / Worked With</span>
           </div>
           <div className="relative">
             <div className="flex animate-marquee whitespace-nowrap">
               {[...CLIENTS, ...CLIENTS].map((client, i) => (
-                <span key={i} className="mx-8 text-lg md:text-xl text-gray-500 font-medium">
+                <span key={i} className="mx-5 sm:mx-8 text-base sm:text-lg md:text-xl text-gray-500 font-medium">
                   {client}
-                  <span className="mx-8 text-emerald-500/40">•</span>
+                  <span className="mx-5 sm:mx-8 text-emerald-500/40">•</span>
                 </span>
               ))}
             </div>
@@ -528,15 +590,15 @@ export default function HomePage() {
         </section>
 
         {/* ====== SKILLS ====== */}
-        <section id="skills" className="py-24 border-t border-white/5">
-          <div className="max-w-7xl mx-auto px-6">
-            <SectionHeading eyebrow="Expertise" title="What I Bring to the Table" />
+        <section id="skills" data-motion="scale" className="scroll-mt-20 py-16 sm:py-20 lg:py-24 border-t border-white/5">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
+            <SectionHeading eyebrow="Expertise" title="What I Handle for Your Store" />
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
               {SKILLS.map((group) => (
                 <div
                   key={group.category}
-                  className="rounded-2xl border border-white/5 bg-white/[0.02] p-6 hover:border-emerald-500/20 transition-colors group"
+                  className="rounded-2xl border border-white/5 bg-white/[0.02] p-5 sm:p-6 hover:border-emerald-500/20 hover:bg-white/[0.035] transition-all group"
                 >
                   <h3 className="text-white font-semibold mb-4 group-hover:text-emerald-400 transition-colors">
                     {group.category}
@@ -558,15 +620,15 @@ export default function HomePage() {
         </section>
 
         {/* ====== SERVICES ====== */}
-        <section className="py-24 border-t border-white/5">
-          <div className="max-w-7xl mx-auto px-6">
-            <SectionHeading eyebrow="Services" title="Solutions I Build" />
+        <section data-motion="slide-right" className="py-16 sm:py-20 lg:py-24 border-t border-white/5">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
+            <SectionHeading eyebrow="Services" title="Website Management Services" />
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
               {SERVICES.map((svc, i) => (
                 <div
                   key={i}
-                  className="rounded-2xl border border-white/5 bg-white/[0.02] p-8 hover:bg-white/[0.04] hover:border-white/10 transition-all group"
+                  className="rounded-2xl border border-white/5 bg-white/[0.02] p-6 sm:p-8 hover:bg-white/[0.04] hover:border-emerald-500/20 hover:-translate-y-1 transition-all group"
                 >
                   <div className="text-emerald-400 text-sm font-mono mb-4">0{i + 1}</div>
                   <h3 className="text-white font-semibold text-lg mb-3">{svc.title}</h3>
@@ -578,22 +640,22 @@ export default function HomePage() {
         </section>
 
         {/* ====== FEATURED PROJECT ====== */}
-        <section className="py-24 border-t border-white/5">
-          <div className="max-w-7xl mx-auto px-6">
+        <section data-motion="blur" className="py-16 sm:py-20 lg:py-24 border-t border-white/5">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="mb-4">
               <span className="text-sm text-gray-500 uppercase tracking-widest">Featured Case Study</span>
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-12">{FEATURED_PROJECT.name}</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 sm:mb-12">{FEATURED_PROJECT.name}</h2>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-              <div className="space-y-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12">
+              <div className="space-y-7 sm:space-y-8">
                 <div>
                   <p className="text-emerald-400 font-medium mb-2">{FEATURED_PROJECT.tagline}</p>
                   <h3 className="text-xl font-semibold text-white mb-3">Business Challenge</h3>
                   <p className="text-gray-400 leading-relaxed">{FEATURED_PROJECT.challenge}</p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-white mb-3">Developed Solution</h3>
+                  <h3 className="text-xl font-semibold text-white mb-3">Developed Solution:</h3>
                   <p className="text-gray-400 leading-relaxed">{FEATURED_PROJECT.solution}</p>
                 </div>
               </div>
@@ -614,21 +676,21 @@ export default function HomePage() {
         </section>
 
         {/* ====== ALL PROJECTS ====== */}
-        <section id="projects" className="py-24 border-t border-white/5">
-          <div className="max-w-7xl mx-auto px-6">
-            <SectionHeading eyebrow="Portfolio" title="Selected Projects" />
+        <section id="projects" data-motion="rise" className="scroll-mt-20 py-16 sm:py-20 lg:py-24 border-t border-white/5">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
+            <SectionHeading eyebrow="Portfolio" title="Live Sites I’ve Built & Maintained" />
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
               {PROJECTS.map((project) => (
                 <a
                   key={project.name}
                   href={project.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group rounded-3xl border border-white/5 bg-white/[0.02] overflow-hidden hover:border-emerald-500/20 hover:ring-2 hover:ring-emerald-500/10 transition-all shadow-sm"
+                  className="group rounded-2xl sm:rounded-3xl border border-white/5 bg-white/[0.02] overflow-hidden hover:border-emerald-500/20 hover:ring-2 hover:ring-emerald-500/10 hover:-translate-y-1 transition-all shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-emerald-400"
                 >
                   {project.image && (
-                    <div className="w-full aspect-[16/9] relative bg-black rounded-t-3xl overflow-hidden">
+                    <div className="w-full aspect-[4/3] sm:aspect-[16/9] relative bg-black sm:rounded-t-3xl overflow-hidden">
                       <Image src={project.image} alt={project.name} fill className="object-cover" />
 
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
@@ -645,15 +707,15 @@ export default function HomePage() {
                               <span>LIVE</span>
                             </span>
                           </div>
-                          <h3 className="text-white text-2xl md:text-3xl font-bold mt-2 group-hover:text-emerald-400 transition-colors">
+                          <h3 className="text-white text-xl sm:text-2xl md:text-3xl font-bold mt-2 group-hover:text-emerald-400 transition-colors break-words">
                             {project.name}
                           </h3>
-                          <p className="text-sm text-gray-300 mt-1 max-w-[90%]">{project.desc}</p>
+                          <p className="text-xs sm:text-sm text-gray-300 mt-1 max-w-[95%]">{project.desc}</p>
 
                           {project.tags && (
-                            <div className="mt-3 flex flex-wrap gap-2">
+                            <div className="mt-2 sm:mt-3 flex flex-wrap gap-1.5 sm:gap-2">
                               {project.tags.map((t) => (
-                                <span key={t} className="text-xs text-cyan-300 border border-cyan-700/30 px-2.5 py-0.5 rounded-full bg-transparent">
+                                <span key={t} className="text-[10px] sm:text-xs text-cyan-300 border border-cyan-700/30 px-2 sm:px-2.5 py-0.5 rounded-full bg-black/20">
                                   {t}
                                 </span>
                               ))}
@@ -681,48 +743,37 @@ export default function HomePage() {
               ))}
             </div>
 
-            {/* Local SEO Subsection */}
-            <div className="mt-16">
-              <div className="flex items-center gap-3 mb-6">
-                <span className="h-px flex-1 bg-white/5" />
-                <span className="text-sm text-gray-500 uppercase tracking-widest">Local SEO & Google Business Profile</span>
-                <span className="h-px flex-1 bg-white/5" />
-              </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {LOCAL_SEO_PROJECTS.map((project) => (
+            <div className="mt-10 sm:mt-12">
+              <h3 className="text-sm text-gray-500 uppercase tracking-widest mb-4">More Projects</h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+                {MORE_PROJECTS.map((project) => (
                   <a
                     key={project.name}
                     href={project.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group flex items-center justify-between rounded-xl border border-white/5 bg-white/[0.02] px-5 py-4 hover:border-emerald-500/20 hover:bg-white/[0.04] transition-all"
+                    className="rounded-xl border border-white/5 bg-white/[0.02] p-4 hover:border-emerald-500/20 hover:bg-white/[0.04] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-emerald-400"
                   >
-                    <div>
-                      <span className="text-white text-sm font-medium group-hover:text-emerald-400 transition-colors">
-                        {project.name}
-                      </span>
-                      <span className="block text-xs text-gray-600 mt-0.5">Local SEO & Google Business Profile optimization</span>
-                    </div>
-                    <span className="text-gray-600 group-hover:text-emerald-400 transition-colors">
-                      {Icons.external}
-                    </span>
+                    <h4 className="text-sm text-white font-medium">{project.name}</h4>
+                    <p className="text-xs text-gray-500 mt-1">{project.desc}</p>
                   </a>
                 ))}
               </div>
             </div>
+
           </div>
         </section>
 
         {/* ====== EXPERIENCE TIMELINE ====== */}
-        <section id="experience" className="py-24 border-t border-white/5">
-          <div className="max-w-7xl mx-auto px-6">
+        <section id="experience" data-motion="timeline" className="scroll-mt-20 py-16 sm:py-20 lg:py-24 border-t border-white/5">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <SectionHeading eyebrow="Career" title="Work History" />
 
             <div className="relative">
               {/* vertical line */}
               <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-px bg-white/10 md:-translate-x-px" />
 
-              <div className="space-y-12">
+              <div className="space-y-8 sm:space-y-12">
                 {EXPERIENCE.map((job, i) => (
                   <div
                     key={i}
@@ -735,7 +786,7 @@ export default function HomePage() {
 
                     {/* card */}
                     <div className={`ml-10 md:ml-0 md:w-[calc(50%-2rem)] ${i % 2 === 0 ? "md:text-right" : "md:text-left"}`}>
-                      <div className="rounded-2xl border border-white/5 bg-white/[0.02] p-6 hover:border-emerald-500/20 transition-colors">
+                      <div className="rounded-2xl border border-white/5 bg-white/[0.02] p-5 sm:p-6 hover:border-emerald-500/20 transition-colors text-left">
                         <div className="flex items-center gap-2 mb-2">
                           {job.current && (
                             <span className="inline-flex items-center gap-1.5 text-xs font-medium text-emerald-400 bg-emerald-500/10 px-2.5 py-0.5 rounded-full">
@@ -751,6 +802,9 @@ export default function HomePage() {
                         <h3 className="text-white font-semibold text-lg">{job.title}</h3>
                         <p className="text-emerald-400 text-sm mt-1">{job.company}</p>
                         <p className="text-gray-500 text-xs mt-1">{job.location}</p>
+                        {job.description && (
+                          <p className="text-gray-400 text-sm leading-relaxed mt-3">{job.description}</p>
+                        )}
                       </div>
                     </div>
 
@@ -764,15 +818,15 @@ export default function HomePage() {
         </section>
 
         {/* ====== WORKFLOW ====== */}
-        <section className="py-24 border-t border-white/5">
-          <div className="max-w-7xl mx-auto px-6">
+        <section data-motion="cards" className="py-16 sm:py-20 lg:py-24 border-t border-white/5">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <SectionHeading eyebrow="Process" title="How I Work" />
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6">
               {WORKFLOW.map((w) => (
                 <div
                   key={w.step}
-                  className="rounded-2xl border border-white/5 bg-white/[0.02] p-6 hover:border-emerald-500/20 transition-colors"
+                  className="rounded-2xl border border-white/5 bg-white/[0.02] p-5 sm:p-6 hover:border-emerald-500/20 hover:-translate-y-1 transition-all"
                 >
                   <span className="text-4xl font-bold text-white/5">{w.step}</span>
                   <h3 className="text-white font-semibold mt-4 mb-3">{w.title}</h3>
@@ -784,13 +838,13 @@ export default function HomePage() {
         </section>
 
         {/* ====== ABOUT ====== */}
-        <section id="about" className="py-24 border-t border-white/5">
-          <div className="max-w-7xl mx-auto px-6">
-            <SectionHeading eyebrow="The Engineer" title="Meet the Developer  Behind the Solutions" />
+        <section id="about" data-motion="about" className="scroll-mt-20 py-16 sm:py-20 lg:py-24 border-t border-white/5">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
+            <SectionHeading eyebrow="About" title="Meet Your Website Manager" />
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
               <div className="relative">
-                <div className="aspect-[4/5] relative rounded-3xl overflow-hidden border border-white/5 bg-white/[0.02]">
+                <div className="aspect-[4/3] sm:aspect-[4/5] max-h-[34rem] relative rounded-2xl sm:rounded-3xl overflow-hidden border border-white/5 bg-white/[0.02]">
                   <Image
                     src="/profile.jpg"
                     alt="Isah Aruna"
@@ -802,25 +856,25 @@ export default function HomePage() {
                 <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-emerald-500/10 rounded-full blur-[80px] pointer-events-none" />
               </div>
 
-              <div className="space-y-6">
-                <p className="text-lg text-gray-300 leading-relaxed">
-                  Hi, I&apos;m <strong className="text-white">Isah Aruna</strong>. WordPress Developer with 5+ years turning Figma designs into fast, responsive, production-ready sites for clients across Nigeria, the UK, and the Netherlands.
+              <div className="space-y-5 sm:space-y-6">
+                <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
+                  Hi, I&apos;m <strong className="text-white">Isah Aruna</strong>. Website Manager and WordPress/WooCommerce specialist with 5+ years keeping online stores and business sites fast, secure, and up to date for clients across Nigeria, the UK, and the Netherlands.
                 </p>
                 <p className="text-gray-400 leading-relaxed">
-                  I use <strong className="text-white">Elementor daily</strong>, alongside Bricks Builder and Divi, to convert Figma mockups into pixel-perfect, fully responsive pages — and build custom themes and plugins with ACF/Gutenberg and clean PHP where a page builder isn&apos;t enough. I specialize in conversion-optimized landing pages, WooCommerce builds, and on-page/technical SEO including Core Web Vitals, managing multiple concurrent client projects to deadline.
+                  I manage WooCommerce stores day to day: adding products, keeping catalogs and orders in order, fixing minor issues, and updating designs in <strong className="text-white">Elementor</strong> (my daily tool), Bricks Builder, or Divi. When a page builder isn&apos;t enough, I step in with custom PHP, ACF, and Gutenberg.
                 </p>
                 <p className="text-gray-400 leading-relaxed">
-                  Beyond the front end, I integrate tracking, payment gateways, and marketing automation via webhooks, REST APIs, and CRM connections, and manage the hosting, DNS, and CDN side that keeps sites fast and secure. I collaborate daily with international remote teams using <strong className="text-white">Slack, Notion, Google Workspace, and Discord</strong>.
+                  I also look after the technical side that keeps a store running: hosting, DNS, CDN, backups, Core Web Vitals, and payment gateway, CRM, and marketing integrations. I work daily with international remote teams using <strong className="text-white">Slack, Notion, Google Workspace, and Discord</strong>, and I coordinate launches so nothing goes live unchecked.
                 </p>
                 <p className="text-gray-400 leading-relaxed">
-                  My front-end skills in React.js and JavaScript, backed by security knowledge from my Google Cloud Cybersecurity certification, round out every build. I don&apos;t just build websites — I build digital assets that perform.
+                  Backed by a Google Cloud Cybersecurity certification, I keep sites secure as well as fast. I don&apos;t just build websites, I keep them running.
                 </p>
                 <p className="text-gray-400 leading-relaxed">
-                  Based in Abuja, Nigeria — open to remote and on-site work.
+                  Based in Abuja, Nigeria, open to remote and on-site work.
                 </p>
 
                 <div className="flex flex-wrap gap-3 pt-4">
-                  {["WordPress Expert", "WooCommerce Builds", "Performance Optimization", "React.js Front-Ends", "Security Hardening"].map(
+                  {["WordPress Expert", "WooCommerce Management", "Performance Optimization", "Security Hardening", "Remote Collaboration"].map(
                     (tag) => (
                       <span
                         key={tag}
@@ -837,9 +891,9 @@ export default function HomePage() {
         </section>
 
         {/* ====== CERTIFICATIONS ====== */}
-        <section className="py-24 border-t border-white/5">
-          <div className="max-w-7xl mx-auto px-6">
-            <div className="mb-10">
+        <section data-motion="fade" className="py-12 sm:py-16 border-t border-white/5">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
+            <div className="mb-6 sm:mb-10">
               <span className="text-sm text-gray-500 uppercase tracking-widest">Certifications</span>
             </div>
             <div className="flex flex-wrap gap-3">
@@ -856,28 +910,28 @@ export default function HomePage() {
         </section>
 
         {/* ====== CTA ====== */}
-        <section id="contact" className="py-24 border-t border-white/5">
-          <div className="max-w-4xl mx-auto px-6 text-center">
-            <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
-              Let&apos;s Build Something{" "}
-              <span className="text-emerald-400">Amazing</span> Together.
+        <section id="contact" data-motion="pop" className="scroll-mt-20 py-16 sm:py-20 lg:py-24 border-t border-white/5">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight mb-5 sm:mb-6">
+              Ready to Keep Your Store{" "}
+              <span className="text-emerald-400">Running Smoothly?</span>
             </h2>
-            <p className="text-gray-400 text-lg mb-10 max-w-2xl mx-auto">
-              Ready to transform your online presence? I&apos;m currently accepting new projects. Let&apos;s discuss how I can help you build a fast, beautiful, high-converting website.
+            <p className="text-gray-400 text-base sm:text-lg mb-8 sm:mb-10 max-w-2xl mx-auto">
+              I&apos;m available for a remote Website Manager role. Let&apos;s talk about how I can handle your products, orders, speed, and updates so your team can focus on growth.
             </p>
 
-            <div className="flex flex-wrap justify-center gap-4 mb-12">
+            <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4 mb-8 sm:mb-12">
               <a
                 href="https://wa.me/2348137337937"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold px-8 py-4 rounded-full transition-all"
+                className="w-full sm:w-auto min-h-12 inline-flex justify-center items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-400"
               >
                 WhatsApp Me
               </a>
               <a
                 href="mailto:arunaisah47@gmail.com"
-                className="inline-flex items-center gap-2 border border-white/10 hover:border-white/30 text-white font-medium px-8 py-4 rounded-full transition-all"
+                className="w-full sm:w-auto min-h-12 inline-flex justify-center items-center gap-2 border border-white/10 hover:border-white/30 text-white font-medium px-5 sm:px-8 py-3 sm:py-4 rounded-full transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-400"
               >
                 {Icons.mail} arunaisah47@gmail.com
               </a>
@@ -887,13 +941,13 @@ export default function HomePage() {
       </main>
 
       {/* ====== FOOTER ====== */}
-      <footer className="bg-[#0a0a0a] border-t border-white/5 py-16">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+      <footer data-motion="slide-down" className="bg-[#0a0a0a] border-t border-white/5 py-12 sm:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-12 mb-8 sm:mb-12">
             <div>
               <h3 className="text-white font-bold text-lg mb-4">Isah Aruna</h3>
               <p className="text-gray-500 text-sm leading-relaxed">
-                WordPress Developer specializing in Elementor, Bricks Builder, and Divi. Building fast, high-converting websites for clients worldwide.
+                Website Manager and WordPress/WooCommerce specialist. Keeping online stores fast, secure, and up to date for brands worldwide.
               </p>
             </div>
 

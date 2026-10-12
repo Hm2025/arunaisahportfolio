@@ -6,6 +6,68 @@ html {
   scroll-behavior: smooth;
 }
 
+html.motion-ready [data-motion] {
+  opacity: 0;
+  transition: opacity 700ms ease, transform 700ms cubic-bezier(0.2, 0.7, 0.2, 1), filter 700ms ease;
+  will-change: opacity, transform;
+}
+
+html.motion-ready [data-motion="hero"]:not(.motion-visible) {
+  transform: translateY(20px) scale(0.99);
+}
+
+html.motion-ready [data-motion="slide-left"]:not(.motion-visible) {
+  transform: translateX(-28px);
+}
+
+html.motion-ready [data-motion="slide-right"]:not(.motion-visible) {
+  transform: translateX(28px);
+}
+
+html.motion-ready [data-motion="ticker"]:not(.motion-visible) {
+  transform: scale(0.96);
+}
+
+html.motion-ready [data-motion="scale"]:not(.motion-visible) {
+  transform: scale(0.96);
+}
+
+html.motion-ready [data-motion="blur"]:not(.motion-visible) {
+  filter: blur(10px);
+  transform: translateY(16px);
+}
+
+html.motion-ready [data-motion="rise"]:not(.motion-visible) {
+  transform: translateY(32px);
+}
+
+html.motion-ready [data-motion="timeline"]:not(.motion-visible) {
+  transform: translate(-20px, 12px);
+}
+
+html.motion-ready [data-motion="cards"]:not(.motion-visible) {
+  transform: perspective(800px) rotateX(5deg) translateY(20px);
+}
+
+html.motion-ready [data-motion="about"]:not(.motion-visible) {
+  transform: scale(0.98);
+}
+
+html.motion-ready [data-motion="pop"]:not(.motion-visible) {
+  transform: scale(0.94);
+}
+
+html.motion-ready [data-motion="slide-down"]:not(.motion-visible) {
+  transform: translateY(-20px);
+}
+
+html.motion-ready [data-motion].motion-visible {
+  opacity: 1;
+  filter: none;
+  transform: none;
+  will-change: auto;
+}
+
 body {
   background-color: #0a0a0a;
   color: #d1d5db;
@@ -31,4 +93,26 @@ body {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #374151;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  html.motion-ready [data-motion] {
+    opacity: 1;
+    filter: none;
+    transform: none;
+    will-change: auto;
+  }
 }
